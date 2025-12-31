@@ -13,9 +13,13 @@ Rock (R)
 Mine (M)
 
 👉Dataset Description
+
 Dataset: -<a href="https://github.com/rajankumar-1439/rock-vs-mine-prediction-using-machine-learning/blob/main/Sonar%20dataset.csv">Sonar dataset </a>
+
 Total samples: 208
+
 Features: 60 numerical attributes (sonar energy values)
+
 Target column:
 
 R → Rock
@@ -23,48 +27,67 @@ R → Rock
 M → Mine
 
 📊 Machine Learning Workflow:-
+
 The project follows a standard ML pipeline:
 
 Data Loading
+
  -Dataset loaded using pandas
 
 Data Exploration
+
  -Shape, value distribution, and class balance checked
 
 Feature & Target Separation
+
  -Independent variables (X)
  -Dependent variable (y)
 
 Train-Test Split
+
  -Data split into training and testing sets
  -Stratified split used to maintain class balance
 
 Model Training
+
  -Classification model trained on training data
 
 Model Evaluation
+
  -Accuracy score calculated on both train and test data
 
 Prediction
+
  -Model used to predict unseen sonar input
 
 🛠️Technologies & Libraries Used
+
  -Python
+ 
  -NumPy
+ 
  -Pandas
+ 
  -Scikit-learn
 
 👉Model Used
 
 Logistic Regression
+
 Why Logistic Regression?
+
  -Suitable for binary classification
+ 
  -Works well with numerical features
+ 
  -Easy to interpret
+ 
  -Fast and efficient for small-to-medium datasets
 
  📈 Model Performance
+ 
 Training Accuracy: Displayed in notebook
+
 Testing Accuracy: Displayed in notebook
 
 ⚠️ Note:
@@ -83,21 +106,32 @@ git clone -<a href="https://github.com/rajankumar-1439/rock-vs-mine-prediction-u
   ├── README.md
 
 👉Key Learnings
+
  -Understanding binary classification problems
+ 
  -Proper train-test splitting with stratification
+ 
  -Handling numerical datasets
+ 
  -Model training and evaluation using scikit-learn
+ 
  -Writing clean and readable ML code
   
 👉Future Improvements
 
 Be honest — this project is basic. To level it up:
+
  -Try other classifiers (SVM, Random Forest, KNN)
+ 
  -Perform feature scaling
+ 
  -Add confusion matrix and classification report
+ 
  -Convert notebook into a web app (Flask / Streamlit)
 
  
 👤 Author
+
 Rajan Kumar
+
 📧 rajankumarmu1439@gmail.com
