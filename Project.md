@@ -22,7 +22,7 @@ R → Rock
 
 M → Mine
 
-📊 Machine Learning Workflow
+📊 Machine Learning Workflow:-
 The project follows a standard ML pipeline:
 
 Data Loading
